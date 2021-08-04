@@ -1,0 +1,14 @@
+<div class="pb">
+  <div>
+    <h2>{{ filmes[0].nome }}</h2>
+    <img [src]="filmes[0].capa" class="w-50 h-50">
+    <p>Lançamento: {{ filmes[0].lancamento }}</p>
+    <p>Duração: {{ filmes[0].duracao }}</p>
+    <ul>
+      <li *ngFor="let cat of filmes[0].categorias">
+        {{ cat }}
+      </li>
+    </ul>
+  </div>
+</div>
+

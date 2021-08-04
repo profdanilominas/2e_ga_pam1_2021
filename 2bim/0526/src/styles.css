@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.w-30{
+  width: 30%;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.h-60{
+  height: 60%;
+}
+
+.h-65{
+  height: 65%;
+}
+
+.h-70{
+  height: 70%;
+}
+
